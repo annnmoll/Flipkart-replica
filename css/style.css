@@ -1,0 +1,95 @@
+:root {
+    --main-bg-color: #2874f0
+}
+
+
+.head {
+    display: flex;
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 15vh;
+    justify-content: flex-start;
+    align-items: center;
+ 
+}
+.head .img img {
+
+    width: 74px;
+    margin: 0px 4px 0px 21px;
+
+}
+
+.head ul {
+
+    list-style: none;
+
+}
+
+.head ul li {
+
+    display: inline;
+
+    padding: 0px 5px;
+    align-self: center;
+}
+
+.head ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search input {
+    width: 284px;
+    margin: 0px 0px 0px 50px;
+}
+.main{
+    min-height: 68vh;
+}
+
+.offers
+{
+    text-align: center ; 
+}
+ .slider{
+    display:flex; 
+    flex-direction: column;
+    margin:10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.slider a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.container h2{
+    margin:20px 30px ; 
+}
+.cards{
+
+    display: flex ; 
+    overflow: scroll ; 
+}
+.card-item{
+    display:inline-block
+}
+.card-item img{
+    margin: 0px 10px ;
+}
+
+.lines{
+    text-align: center ; 
+}
+
+
+.foot {
+    display: flex;
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
